@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="5.465">
+<testcase classname="Browsing around" name="Login and Vets" time="3.023">
+<system-out><![CDATA[Given I have opened the browser.............................................passed
+And I am on the home page...................................................passed
+When I open veterinarians page..............................................passed
+Then I search for text "Veterinarians"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Browsing around" name="Login and check owner based on last name" time="2.255">
+<system-out><![CDATA[Given I have opened the browser.............................................passed
+And I am on the home page...................................................passed
+When I search owner "Estaban"...............................................passed
+Then I get owner "Estaban" Informations.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
